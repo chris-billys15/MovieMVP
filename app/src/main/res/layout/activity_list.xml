@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    tools:context=".ui.list.ListActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#12af92"
+        android:theme="@style/ToolbarTheme"
+        app:layout_collapseMode="pin"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:logoDescription="@string/list_activity_name"
+        app:title="@string/list_activity_name"
+        app:titleTextColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:padding="12dp"
+        android:layout_margin="8dp"
+        android:hint="Search movie by title"
+        android:textStyle="italic"
+        android:textSize="12dp"
+
+        android:background="@drawable/layout_custom"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listFilm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

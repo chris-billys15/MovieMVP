@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MovieMVP</string>
+    <string name="preference_movieMVP">MovieMVP</string>
+    <string name="list_activity_name">Home</string>
+    <string name="detail_activity_name">Detail Film</string>
+    <string name="api_key">4f24b64f</string>
+</resources>

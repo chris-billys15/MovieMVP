@@ -1,0 +1,4 @@
+#Thu Jul 04 13:00:04 ICT 2019
+base.0=C\:\\Users\\Christopher Billy S\\Desktop\\cicil\\Latihan\\MovieMVP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
