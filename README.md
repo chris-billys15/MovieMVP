@@ -1,2 +1,2 @@
 # MovieMVP
-a simple android program to search movies using design pattern
+a simple android program to search movies from omdb API using design pattern Model, View, Presenter (MVP)
